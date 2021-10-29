@@ -45,10 +45,12 @@ sudo ldconfig
 
 ### Install Mqtt server
 
+```
 sudo apt-add-repository ppa:mosquitto-dev/mosquitto-ppa
 sudo apt-get update
 sudo apt-get install -y mosquitto mosquitto-clients nodejs npm
 sudo apt clean
+```
 
 ### Install node-red
 
