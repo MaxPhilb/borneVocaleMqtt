@@ -1,0 +1,20 @@
+{
+  "audio_scenario": [
+    {
+      "audiopaths": [
+        [
+          "main",
+          "b_main"
+        ]
+      ],
+      "name": "sc_main"
+    }
+  ],
+  "module_config": [
+    {
+      "name": "b_main",
+      "type": "AudioOutput"
+    }
+  ],
+  "version": "AudioMgr 1.0"
+}

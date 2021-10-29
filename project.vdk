@@ -1,0 +1,22 @@
+{
+    "languages": [
+        "eng-US",
+        "fra-FR"
+    ],
+    "name": "simple-application",
+    "technologies": [
+        "asr",
+        "tts"
+    ],
+    "technologies_settings": {
+        "asr": {
+            "asreng-US": "asreng-US.fcf",
+            "asrfra-FR": "asrfra-FR.fcf"
+        },
+        "tts": {
+            "eng-US": "voice_eng-US_evan_embedded-high",
+            "fra-FR": "voice_fra-FR_audrey-ml_embedded-premium"
+        }
+    },
+    "version": "2.1.0"
+}

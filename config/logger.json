@@ -1,0 +1,18 @@
+{
+  "logger": {
+    "consumers": [
+      {
+        "name": "file-all",
+        "output": "logs-all.log",
+        "zones": "LOG_FATAL|LOG_ERROR|LOG_WARNING|LOG_PERFORMANCE_WARNING|LOG_CORE_INFO|LOG_INFO"
+      },
+      {
+        "name": "file-errors",
+        "output": "logs-errors.log",
+        "zones": "LOG_FATAL|LOG_ERROR|LOG_WARNING|LOG_PERFORMANCE_WARNING"
+      }
+    ],
+    "text_buffer_entries": 1000000
+  },
+  "version": "Common 1.0"
+}

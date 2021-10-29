@@ -1,0 +1,14 @@
+{
+    "tts": {
+        "channels": [
+            {
+                "name": "main",
+                "voices": [
+                    "enu,evan,embedded-high",
+                    "frf,audrey-ml,embedded-premium"
+                ]
+            }
+        ],
+        "data_path": "../data/languages"
+    }
+}

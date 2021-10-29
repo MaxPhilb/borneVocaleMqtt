@@ -1,0 +1,55 @@
+{
+  "prompter": [
+    {
+      "default_audio_scenario": "sc_main",
+      "local": {
+        "voice_data_path": {
+          "uses": "tts"
+        }
+      },
+      "name": "main",
+      "type": "local"
+    }
+  ],
+  "usecase": [
+    {
+      "local": {
+        "voice_config": {
+          "uses": "vc_evan"
+        }
+      },
+      "name": "enu,evan,embedded-high",
+      "type": "local"
+    },
+    {
+      "local": {
+        "voice_config": {
+          "uses": "vc_audrey-ml"
+        }
+      },
+      "name": "frf,audrey-ml,embedded-premium",
+      "type": "local"
+    }
+  ],
+  "version": "Prompter 1.0",
+  "voice_config": [
+    {
+      "language": "enu",
+      "name": "vc_evan",
+      "operating_point": "embedded-high",
+      "voice": "evan"
+    },
+    {
+      "language": "frf",
+      "name": "vc_audrey-ml",
+      "operating_point": "embedded-premium",
+      "voice": "audrey-ml"
+    }
+  ],
+  "voice_data_path": [
+    {
+      "name": "tts",
+      "vocalizer_path": "../data/languages"
+    }
+  ]
+}

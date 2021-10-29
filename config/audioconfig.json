@@ -1,0 +1,26 @@
+{
+  "version": "AudioMgr 1.0",
+  "audio_scenario": [
+    {
+      "name":       "mic",
+      "audiopaths": [ [ "microphone", "rec" ] ]
+    }
+  ],
+  "module_config": [
+    {
+      "name":             "microphone",
+      "type":             "AudioInput",
+      "adapter_type":     "PORTAUDIO_INPUT",
+      "audio_format":   { "uses": "16khz_1ch" },
+      "adapter_params": { "device_name": "default" }
+    }
+  ],
+  "audio_format": [
+    {
+      "name":                "16khz_1ch",
+      "sample_rate":         16000,
+      "samples_per_channel": 1024,
+      "channel_count":       1
+    }
+  ]
+}

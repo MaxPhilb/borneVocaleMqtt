@@ -1,0 +1,22 @@
+{
+    "recognizer": [
+        {
+            "asr_engine": {
+                "language": [
+                    {
+                        "acmod": {
+                            "file_name": "acmod6_9000_enu_gen_car_f16_v2_0_0.dat"
+                        }
+                    },
+                    {
+                        "acmod": {
+                            "file_name": "acmod6_6000_frf_gen_car_f16_v1_0_0.dat"
+                        }
+                    }
+                ]
+            },
+            "name": "rec"
+        }
+    ],
+    "version": "VoConHigh 5.0"
+}

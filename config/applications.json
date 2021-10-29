@@ -1,0 +1,52 @@
+{
+    "application": [
+        
+        {
+            "input": [
+                {
+                    "asr": {
+                        "search": [
+                            {
+                                "name": "APP",
+                                "static": {
+                                    "file_name": "asreng-US.fcf"
+                                },
+                                "type": "static",
+                                "vocon_parameters": {
+                                    "LH_SEARCH_PARAM_MAXNBEST": 1,
+                                    "LH_SEARCH_PARAM_TSILENCE": 800
+                                }
+                            }
+                        ]
+                    },
+                    "type": "asr"
+                }
+            ],
+            "name": "asreng-US"
+        },
+        {
+            "input": [
+                {
+                    "asr": {
+                        "search": [
+                            {
+                                "name": "APP",
+                                "static": {
+                                    "file_name": "asrfra-FR.fcf"
+                                },
+                                "type": "static",
+                                "vocon_parameters": {
+                                    "LH_SEARCH_PARAM_MAXNBEST": 1,
+                                    "LH_SEARCH_PARAM_TSILENCE": 800
+                                }
+                            }
+                        ]
+                    },
+                    "type": "asr"
+                }
+            ],
+            "name": "transport"
+        }
+    ],
+    "version": "VoConHigh 5.0"
+}
