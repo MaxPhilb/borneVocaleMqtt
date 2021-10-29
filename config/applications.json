@@ -1,6 +1,5 @@
 {
     "application": [
-        
         {
             "input": [
                 {
@@ -46,6 +45,29 @@
                 }
             ],
             "name": "transport"
+        },
+        {
+            "input": [
+                {
+                    "asr": {
+                        "search": [
+                            {
+                                "name": "APP",
+                                "static": {
+                                    "file_name": "asrfra-FR.fcf"
+                                },
+                                "type": "static",
+                                "vocon_parameters": {
+                                    "LH_SEARCH_PARAM_MAXNBEST": 1,
+                                    "LH_SEARCH_PARAM_TSILENCE": 800
+                                }
+                            }
+                        ]
+                    },
+                    "type": "asr"
+                }
+            ],
+            "name": "asrfra-FR"
         }
     ],
     "version": "VoConHigh 5.0"

@@ -3,7 +3,7 @@
         "eng-US",
         "fra-FR"
     ],
-    "name": "simple-application",
+    "name": "BorneVocaleMqtt",
     "technologies": [
         "asr",
         "tts"

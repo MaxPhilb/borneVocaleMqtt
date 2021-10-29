@@ -49,7 +49,7 @@
   "voice_data_path": [
     {
       "name": "tts",
-      "vocalizer_path": "../data/languages"
+      "vocalizer_path": "../data"
     }
   ]
 }

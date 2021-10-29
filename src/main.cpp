@@ -222,7 +222,7 @@ int interactionVocale::start(){
 
         std::shared_ptr<void> const stopGuard(nullptr, [&] (void *) { recognizer.stop(); });
 
-         auto const res = channel->synthesizeFromText("I am connected" );
+         auto const res = channel->synthesizeFromText("connecté" );
                    // std::to_string("hello");
                 play(res.audioData(), res.sampleRate(), res.channelCount());
 
