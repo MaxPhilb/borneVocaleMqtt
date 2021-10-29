@@ -14,10 +14,11 @@ You need Conan, a package manager.
 
 
 ### Install packets
+```
 sudo apt-get install -y build-essential gcc make cmake cmake-gui cmake-curses-gui libssl-dev doxygen graphviz
-
+```
 ### Install MQTT libs
-
+```
 sudo apt-get install -y  build-essential gcc make cmake cmake-gui cmake-curses-gui
 sudo apt-get install -y libssl-dev 
 sudo apt-get install -y doxygen graphviz
@@ -29,9 +30,10 @@ cmake -Bbuild -H. -DPAHO_ENABLE_TESTING=OFF -DPAHO_BUILD_STATIC=ON \
     
 sudo cmake --build build/ --target install
 sudo ldconfig
+```
 
-#/usr/local/lib/cmake/eclipse-paho-mqtt-c/eclipse-paho-mqtt-cConfig-noconfig.cmake
 
+```
 cd ..
 
 git clone https://github.com/eclipse/paho.mqtt.cpp
@@ -43,6 +45,7 @@ sudo cmake --build build/ --target install
 
 sudo ldconfig
 
+```
 ### Install Mqtt server
 
 ```
@@ -53,7 +56,7 @@ sudo apt clean
 ```
 
 ### Install node-red
-
+```
 sudo npm install -g --unsafe-perm node-red node-red-admin
 
 sudo ufw allow 1880
@@ -62,7 +65,7 @@ sudo cp node-red.service /etc/systemd/system/node-red.service
 sudo systemctl enable node-red
 sudo systemctl start node-red
 
-
+```
 
 ## How to use
 
