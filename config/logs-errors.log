@@ -1,1 +1,3 @@
-00:00.524 WARNING:   [2897250048] nuance.audio.SourcePad.main:main         shrinkMTArray_() found 1 used marker reached tasks, expected 0, abort shrinking  [2115]
+00:00.482 WARNING:   [704620352] nuance.common.DirectoryFactory           Invalid root path  [47]
+00:00.483 WARNING:   [704620352] nuance.asr5.AsrConfiguration             could not find file stream error: 0  [275]
+00:00.483 FATAL:     [704620352] nuance.asr5.AsrManager                   could not open liquid_config.json file , did you add key "liquid" to "asr_paths"? Does this directory contain the file "liquid_config.json"?  [1153]
