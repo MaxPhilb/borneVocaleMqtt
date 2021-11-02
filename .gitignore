@@ -1,2 +1,5 @@
 build
-data
+data/acmod
+data/asr
+data/common
+data/languages

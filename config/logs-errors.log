@@ -1,6 +1,1 @@
-00:00.006 ERROR:     [1309783808] nuance.prompter.VeVoices33.ve.tts        VeVoices33() Failed to initialize. VE returned: 0x80000014 - The object was not found.  [172]
-00:00.006 ERROR:     [1309783808] nuance.prompter.VeEngine33.ve            createITtsVoices() Failed to create TTS voices object.  [172]
-00:00.006 ERROR:     [1309783808] nuance.prompter.VocalizerFactory         createVocalizer() Problem occurred while creating TTS voices instance based on "vocalizer_path": ["data/languages"].  [565]
-00:00.006 ERROR:     [1309783808] nuance.prompter.Prompter.main            onDoCreate() Failed to create vocalizer instance  [922]
-00:00.006 WARNING:   [1309783808] nuance.common.WorkerThread               Last command failed!!  [400]
-00:00.007 ERROR:     [1352107840] nuance.prompter.Prompter.main            activateUseCase() invalid pointer parameter (0 == vocalizer_)  [521]
+00:00.524 WARNING:   [2897250048] nuance.audio.SourcePad.main:main         shrinkMTArray_() found 1 used marker reached tasks, expected 0, abort shrinking  [2115]

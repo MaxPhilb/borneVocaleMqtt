@@ -1,0 +1,28 @@
+#BNF+EM V2.1;
+!grammar ASRFRA-FR;
+
+!start <main>;
+
+<main>:!tag(BONJOUR,<bonjour>) | !tag(NBARRETS,<nombreArrets>) | !tag(DIRECTION,<direction>) | !tag(NEXTBUS,<prochainBus>) | !tag(LASTBUS,<dernierBus>) | !tag(TRAJET,<trajet>) | !tag(PRIX,<prix>) | !tag(RETARD,<retard>);
+
+<arrets>:Longueau SNCF | étouvie |espace alliance;
+<busNumber>: 1 | 4 | 13;
+
+<bonjour>: bonjour | hello | salut | yo;
+
+<nombreArrets>:<combienArret> | <nbStation>;
+
+<combienArret>:combien [il y a t il] d'arrets [il y a t il] [jusqu'à | avant l'arret | avant] !tag(NARRETS,<arrets>);
+<nbStation>:quel est le nombre de station jusqu'à !tag(NARRETS,<arrets>);
+
+<direction>: dans quel direction va le bus;
+
+<prochainBus>: quand arrive le prochain bus [ numero ][!tag(BUSNUMBER,<busNumber>)];
+
+<dernierBus>:quand arrive le dernier bus !tag(BUSNUMBER, <busNumber>);
+
+<trajet>:comment se rendre  chez sephora;
+
+<prix>:quel est le prix d'un titre;
+
+<retard>:le bus !tag(BUSNUMBER, <busNumber>) est-il en retard;
