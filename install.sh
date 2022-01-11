@@ -35,3 +35,5 @@ sudo ufw allow 1880
 sudo cp node-red.service /etc/systemd/system/node-red.service
 sudo systemctl enable node-red
 sudo systemctl start node-red
+
+npm install typescript --save-dev
