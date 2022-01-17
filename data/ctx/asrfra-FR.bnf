@@ -11,7 +11,7 @@
 
 <busNumber>: C1 | 40 | 26;
 
-<poi>:sephora | MacDonalds | La Poste | service des cartes grises;
+<poi>:Defibrillateur;
 
 <bonjour>: bonjour | hello | salut | yo;
 
@@ -28,7 +28,7 @@
 
 <dernierBus>:quand arrive le dernier bus !tag(BUSNUMBER, <busNumber>);
 
-<trajet_poi>:comment se rendre [chez | au | à] !tag(POI,<poi>);
+<trajet_poi>:comment se rendre [chez | au | à] !tag(POI,<poi>) | ou se trouve le !tag(POI,<poi>) [le plus proche];
 
 <trajet_transport>:comment aller à l'arrêt !tag(NARRETS,<arrets>);
 
